@@ -10,6 +10,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
+import org.junit.Before;
+import org.junit.Test;
+
+import com.google.common.collect.Lists;
+
 import nl.tudelft.jpacman.board.Board;
 import nl.tudelft.jpacman.board.BoardFactory;
 import nl.tudelft.jpacman.board.Direction;
@@ -19,11 +24,6 @@ import nl.tudelft.jpacman.level.LevelFactory;
 import nl.tudelft.jpacman.level.MapParser;
 import nl.tudelft.jpacman.level.Pellet;
 import nl.tudelft.jpacman.sprite.PacManSprites;
-
-import org.junit.Before;
-import org.junit.Test;
-
-import com.google.common.collect.Lists;
 
 /**
  * Tests the various methods provided by the {@link Navigation} class.

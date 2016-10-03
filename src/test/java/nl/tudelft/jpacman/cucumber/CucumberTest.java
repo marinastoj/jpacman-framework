@@ -1,9 +1,10 @@
 package nl.tudelft.jpacman.cucumber;
 
+import org.junit.runner.RunWith;
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
 import cucumber.api.junit.Cucumber;
-import org.junit.runner.RunWith;
 
 /**
  * Entry point for running the the Cucumber tests in JUnit.
